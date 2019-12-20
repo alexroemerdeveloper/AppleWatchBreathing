@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FFE08D023AD1E5700E45051 /* AppleWatchBreathing WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6FFE08CF23AD1E5700E45051 /* AppleWatchBreathing WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6FFE08D623AD1E5700E45051 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFE08D423AD1E5700E45051 /* Interface.storyboard */; };
+		6FFE08D823AD1E5A00E45051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFE08D723AD1E5A00E45051 /* Assets.xcassets */; };
+		6FFE08DF23AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6FFE08DE23AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6FFE08E423AD1E5A00E45051 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE08E323AD1E5A00E45051 /* ContentView.swift */; };
+		6FFE08E623AD1E5A00E45051 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE08E523AD1E5A00E45051 /* HostingController.swift */; };
+		6FFE08E823AD1E5A00E45051 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE08E723AD1E5A00E45051 /* ExtensionDelegate.swift */; };
+		6FFE08EA23AD1E5C00E45051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFE08E923AD1E5C00E45051 /* Assets.xcassets */; };
+		6FFE08ED23AD1E5C00E45051 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFE08EC23AD1E5C00E45051 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FFE08D123AD1E5700E45051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FFE08C523AD1E5700E45051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFE08CE23AD1E5700E45051;
+			remoteInfo = "AppleWatchBreathing WatchKit App";
+		};
+		6FFE08E023AD1E5A00E45051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FFE08C523AD1E5700E45051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFE08DD23AD1E5A00E45051;
+			remoteInfo = "AppleWatchBreathing WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6FFE08F423AD1E5C00E45051 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6FFE08DF23AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFE08F823AD1E5C00E45051 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6FFE08D023AD1E5700E45051 /* AppleWatchBreathing WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6FFE08CB23AD1E5700E45051 /* AppleWatchBreathing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchBreathing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFE08CF23AD1E5700E45051 /* AppleWatchBreathing WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchBreathing WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFE08D523AD1E5700E45051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6FFE08D723AD1E5A00E45051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FFE08D923AD1E5A00E45051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFE08DE23AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchBreathing WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFE08E323AD1E5A00E45051 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FFE08E523AD1E5A00E45051 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		6FFE08E723AD1E5A00E45051 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		6FFE08E923AD1E5C00E45051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FFE08EC23AD1E5C00E45051 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FFE08EE23AD1E5C00E45051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FFE08DB23AD1E5A00E45051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FFE08C423AD1E5700E45051 = {
+			isa = PBXGroup;
+			children = (
+				6FFE08D323AD1E5700E45051 /* AppleWatchBreathing WatchKit App */,
+				6FFE08E223AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension */,
+				6FFE08CC23AD1E5700E45051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FFE08CC23AD1E5700E45051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE08CB23AD1E5700E45051 /* AppleWatchBreathing.app */,
+				6FFE08CF23AD1E5700E45051 /* AppleWatchBreathing WatchKit App.app */,
+				6FFE08DE23AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FFE08D323AD1E5700E45051 /* AppleWatchBreathing WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE08D423AD1E5700E45051 /* Interface.storyboard */,
+				6FFE08D723AD1E5A00E45051 /* Assets.xcassets */,
+				6FFE08D923AD1E5A00E45051 /* Info.plist */,
+			);
+			path = "AppleWatchBreathing WatchKit App";
+			sourceTree = "<group>";
+		};
+		6FFE08E223AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE08E323AD1E5A00E45051 /* ContentView.swift */,
+				6FFE08E523AD1E5A00E45051 /* HostingController.swift */,
+				6FFE08E723AD1E5A00E45051 /* ExtensionDelegate.swift */,
+				6FFE08E923AD1E5C00E45051 /* Assets.xcassets */,
+				6FFE08EE23AD1E5C00E45051 /* Info.plist */,
+				6FFE08EB23AD1E5C00E45051 /* Preview Content */,
+			);
+			path = "AppleWatchBreathing WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6FFE08EB23AD1E5C00E45051 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE08EC23AD1E5C00E45051 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FFE08CA23AD1E5700E45051 /* AppleWatchBreathing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFE08F923AD1E5C00E45051 /* Build configuration list for PBXNativeTarget "AppleWatchBreathing" */;
+			buildPhases = (
+				6FFE08C923AD1E5700E45051 /* Resources */,
+				6FFE08F823AD1E5C00E45051 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFE08D223AD1E5700E45051 /* PBXTargetDependency */,
+			);
+			name = AppleWatchBreathing;
+			productName = AppleWatchBreathing;
+			productReference = 6FFE08CB23AD1E5700E45051 /* AppleWatchBreathing.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6FFE08CE23AD1E5700E45051 /* AppleWatchBreathing WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFE08F523AD1E5C00E45051 /* Build configuration list for PBXNativeTarget "AppleWatchBreathing WatchKit App" */;
+			buildPhases = (
+				6FFE08CD23AD1E5700E45051 /* Resources */,
+				6FFE08F423AD1E5C00E45051 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFE08E123AD1E5A00E45051 /* PBXTargetDependency */,
+			);
+			name = "AppleWatchBreathing WatchKit App";
+			productName = "AppleWatchBreathing WatchKit App";
+			productReference = 6FFE08CF23AD1E5700E45051 /* AppleWatchBreathing WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6FFE08DD23AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFE08F123AD1E5C00E45051 /* Build configuration list for PBXNativeTarget "AppleWatchBreathing WatchKit Extension" */;
+			buildPhases = (
+				6FFE08DA23AD1E5A00E45051 /* Sources */,
+				6FFE08DB23AD1E5A00E45051 /* Frameworks */,
+				6FFE08DC23AD1E5A00E45051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWatchBreathing WatchKit Extension";
+			productName = "AppleWatchBreathing WatchKit Extension";
+			productReference = 6FFE08DE23AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FFE08C523AD1E5700E45051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Alexander Römer";
+				TargetAttributes = {
+					6FFE08CA23AD1E5700E45051 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					6FFE08CE23AD1E5700E45051 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					6FFE08DD23AD1E5A00E45051 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6FFE08C823AD1E5700E45051 /* Build configuration list for PBXProject "AppleWatchBreathing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FFE08C423AD1E5700E45051;
+			productRefGroup = 6FFE08CC23AD1E5700E45051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FFE08CA23AD1E5700E45051 /* AppleWatchBreathing */,
+				6FFE08CE23AD1E5700E45051 /* AppleWatchBreathing WatchKit App */,
+				6FFE08DD23AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FFE08C923AD1E5700E45051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFE08CD23AD1E5700E45051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFE08D823AD1E5A00E45051 /* Assets.xcassets in Resources */,
+				6FFE08D623AD1E5700E45051 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFE08DC23AD1E5A00E45051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFE08ED23AD1E5C00E45051 /* Preview Assets.xcassets in Resources */,
+				6FFE08EA23AD1E5C00E45051 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FFE08DA23AD1E5A00E45051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFE08E623AD1E5A00E45051 /* HostingController.swift in Sources */,
+				6FFE08E423AD1E5A00E45051 /* ContentView.swift in Sources */,
+				6FFE08E823AD1E5A00E45051 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FFE08D223AD1E5700E45051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FFE08CE23AD1E5700E45051 /* AppleWatchBreathing WatchKit App */;
+			targetProxy = 6FFE08D123AD1E5700E45051 /* PBXContainerItemProxy */;
+		};
+		6FFE08E123AD1E5A00E45051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FFE08DD23AD1E5A00E45051 /* AppleWatchBreathing WatchKit Extension */;
+			targetProxy = 6FFE08E023AD1E5A00E45051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FFE08D423AD1E5700E45051 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FFE08D523AD1E5700E45051 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FFE08EF23AD1E5C00E45051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FFE08F023AD1E5C00E45051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FFE08F223AD1E5C00E45051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchBreathing WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = MEVD82DA4E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AppleWatchBreathing WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = design.roemer.AppleWatchBreathing.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		6FFE08F323AD1E5C00E45051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchBreathing WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = MEVD82DA4E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AppleWatchBreathing WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = design.roemer.AppleWatchBreathing.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		6FFE08F623AD1E5C00E45051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEVD82DA4E;
+				IBSC_MODULE = AppleWatchBreathing_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchBreathing WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = design.roemer.AppleWatchBreathing.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		6FFE08F723AD1E5C00E45051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEVD82DA4E;
+				IBSC_MODULE = AppleWatchBreathing_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchBreathing WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = design.roemer.AppleWatchBreathing.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		6FFE08FA23AD1E5C00E45051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MEVD82DA4E;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = design.roemer.AppleWatchBreathing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6FFE08FB23AD1E5C00E45051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MEVD82DA4E;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = design.roemer.AppleWatchBreathing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FFE08C823AD1E5700E45051 /* Build configuration list for PBXProject "AppleWatchBreathing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFE08EF23AD1E5C00E45051 /* Debug */,
+				6FFE08F023AD1E5C00E45051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFE08F123AD1E5C00E45051 /* Build configuration list for PBXNativeTarget "AppleWatchBreathing WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFE08F223AD1E5C00E45051 /* Debug */,
+				6FFE08F323AD1E5C00E45051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFE08F523AD1E5C00E45051 /* Build configuration list for PBXNativeTarget "AppleWatchBreathing WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFE08F623AD1E5C00E45051 /* Debug */,
+				6FFE08F723AD1E5C00E45051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFE08F923AD1E5C00E45051 /* Build configuration list for PBXNativeTarget "AppleWatchBreathing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFE08FA23AD1E5C00E45051 /* Debug */,
+				6FFE08FB23AD1E5C00E45051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FFE08C523AD1E5700E45051 /* Project object */;
+}
